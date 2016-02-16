@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Paywalls, Preprints, Science Platforms',
+    title: 'Paywalls, Preprints, <b> Science Platforms',
     subtitle: 'Open Access Day @ MPI-Magdeburg, Feb 16, 2016',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
