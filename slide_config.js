@@ -19,7 +19,7 @@ var SLIDE_CONFIG = {
   presenters: [
       {
         name: 'Robert Flassig',
-        company: 'MPI Magdeburg, psf group',
+        company: 'MPI Magdeburg, pse group',
       },
       {
         name: 'Jan Heiland',
