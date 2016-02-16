@@ -1,0 +1,199 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name of the conference</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/mpcsc.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+    <!--script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: {
+            Macros: {
+                x: '\\mathbf{x}',
+                C: '\\mathbb{C}',
+                R: '\\mathbb{R}',
+                A: '\\mathbf{A}',
+                n: '\\mathbf{n}',
+                i: '\\text{i}',
+                id: '\\mathsf{id}',
+                vsH: '\\mathcal{H}',
+                vsL: '\\mathcal{L}',
+                vsN: '\\mathcal{N}',
+                vsR: '\\mathcal{R}',
+                vsV: '\\mathcal{V}',
+                vsW: '\\mathcal{W}',
+                vsX: '\\mathcal{X}',
+                vsY: '\\mathcal{Y}',
+                ip: ['\\langle #1,#2 \\rangle', 2],
+                ipdots: '\\ip{\\cdot}{\\cdot}',
+                nrm: ['\\| #1 \\|', 1],
+                nrmdot: '\\nrm{\\cdot}',
+                lra: '\\longrightarrow',
+                LRA: '\\Longrightarrow',
+                LLRA: '\\Longleftrightarrow'
+            }
+        },
+        skipStartupTypeset: true
+    });
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script>
+        document.addEventListener('slideenter', function(e) {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub, e.target]);
+            var next = document.getElementsByClassName('next')[0];
+            if (next) {
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, next]);
+            }
+            var past = document.getElementsByClassName('past')[0];
+            if (past) {
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, past]);
+            }
+        });
+    </script-->
+    <!--MathJax end-->
+</head>
+<body style="opacity: 0">
+
+<!--slides class="layout-widescreen"-->
+<slides>
+
+    <slide class="logoslide nobackground" style="background-image: url(images/MPCSC_minerva_lrg.png)">
+        <article class="flexbox vcenter">
+            <p><img src="images/manywaystoaccess.png" style="margin-top: 120px;"/></p>
+            <p>Screenshot, Jan 2013</p>
+        </article>
+    </slide>
+
+    <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="logos/mpiwaves.svg"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+        <hgroup class="auto-fadein">
+            <h1 data-config-title><!-- populated from slide_config.json --></h1>
+            <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+            <p>
+                <h2 data-config-presenter><!-- populated from slide_config.json --></h2>
+            </p>
+        </hgroup>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>What if you hit a paywall?</h2>
+        </hgroup>
+
+        <article>
+			<ul>
+				<li>Ask a search engine</li>
+				<li>ask a colleague or the public</li>
+				<li>ask the author</li>
+				<li>ask your librarian</li>
+			</ul>
+		</article>
+      <article>
+        <iframe src="http://dx.doi.org/10.1051/m2an/2015029"></iframe>
+      </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+            <h2>Ask a search engine...</h2>
+        </hgroup>
+        <article>
+        <p> ... like <a href="https://scholar.google.de/scholar?hl=de&q=Finite+element+decomposition+and+minimal+extension+for+flow+equations&btnG=&lr=">google scholar</a> to find a related preprint/postprint: </p>
+			<ul>
+				<li>on an institutional preprint server, like <a href="http://www.mpi-magdeburg.mpg.de/preprints/">our MPI preprint server</a> </li>
+				<li>on <a href="http://arxiv.org/">Arxive</a></li>
+				<li>on the author's homepage</li>
+			</ul>
+<img src="images/googlescholar.png" alt="Google Scholar screenshot" title="Google Scholar screenshot" width=700px>
+		</article>
+	</slide>
+
+    <slide>
+        <hgroup>
+            <h2>Ask a colleague or the public...</h2>
+        </hgroup>
+        <article>
+        <p> ... like <p>
+			<ul>
+				<li>the twitter community with the hashtag <a href="https://twitter.com/search?q=%23icanhazpdf&src=tyah">#icanhazpdf</a> </li>
+				<li>the <a href="https://www.researchgate.net/">researchgate</a> community</a></li>
+			<li>or the <a href="http://sci-hub.io/">sci-hub</a> project</li>
+			</ul>
+		</article>
+      <article>
+        <iframe src="http://sci-hub.io/"></iframe>
+      </article>
+	</slide>
+
+    <slide>
+        <hgroup>
+            <h2>Ask the author ...</h2>
+        </hgroup>
+        <article>
+        <p> ... via a good old email </p>
+<img src="images/emailrequest.png" alt="Email request screenshot" title="Email request screenshot" width=700px>
+		</article>
+        <p> </p>
+        <hgroup>
+            <h2 style="margin-top: 40pt">... or your librarian ...</h2>
+        </hgroup>
+	</slide>
+
+    <slide>
+        <hgroup>
+            <h2>How to help Open Access</h2>
+        </hgroup>
+        <article>
+        	<p> Just do what would help you: </p>
+            <ul>
+                <li>Put a preprint of your publications on</li>
+            	<ul>
+                	<li>on your institutional preprint server</li>
+                	<li>or on archive</li>
+            	</ul>
+                <li>Put a postprint of your publication</li>
+            	<ul>
+                	<li>on your personal homepage</li>
+                	<li>on your library's homepage</li>
+                	<li>... provided your are allowed to do so</li>
+                	<li>... ... (but typically you are)</li>
+            	</ul>
+            </ul>
+        </article>
+    </slide>
+
+    <slide class="thank-you-slide segue nobackground">
+        <aside class="gdbar right"><img src="images/mpiwaves.svg"></aside>
+        <article class="flexbox vleft auto-fadein">
+            <h2>Thank you!</h2>
+            <p>Questions?</p>
+        </article>
+        <p class="auto-fadein" data-config-contact>
+		<!-- populated from slide_config.json -->
+		</p>
+	</slide>
+
+	<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>
