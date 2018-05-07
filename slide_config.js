@@ -1,13 +1,13 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Paywalls, Preprints, Science Platforms',
-    subtitle: 'Open Access Day @ MPI-Magdeburg, Feb 16, 2016',
+    title: 'Open Access, the DEAL, <b>and many ways to scientific content',
+    subtitle: 'at TU Berlin Tools Seminar on May 7, 2018',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
     enableTouch: true, // Default: true. If touch support should enabled. Note: the device must support touch.
-    favIcon: 'images/matheon-logo-color.svg',
+    favIcon: 'images/oalogo.svg',
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
       'Source Code Pro'
@@ -17,10 +17,6 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [
-      {
-        name: 'Robert Flassig',
-        company: 'MPI Magdeburg, psf group',
-      },
       {
         name: 'Jan Heiland',
         company: 'MPI Magdeburg, csc group',

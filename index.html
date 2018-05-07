@@ -1,104 +1,146 @@
 <!--
-Google IO 2012 HTML5 Slide Template
+	Google IO 2012 HTML5 Slide Template
 
-Authors: Eric Bidelman <ebidel@gmail.com>
-         Luke Mahé <lukem@google.com>
+	Authors: Eric Bidelman <ebidel@gmail.com>
+	Luke Mahé <lukem@google.com>
 
-URL: https://code.google.com/p/io-2012-slides
+	URL: https://code.google.com/p/io-2012-slides
 -->
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Name of the conference</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-  <!--This one seems to work all the time, but really small on ipad-->
-  <!--<meta name="viewport" content="initial-scale=0.4">-->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" media="all" href="theme/css/default.css">
-  <link rel="stylesheet" media="all" href="theme/css/mpcsc.css">
-  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
-  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
-    <!--script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        TeX: {
-            Macros: {
-                x: '\\mathbf{x}',
-                C: '\\mathbb{C}',
-                R: '\\mathbb{R}',
-                A: '\\mathbf{A}',
-                n: '\\mathbf{n}',
-                i: '\\text{i}',
-                id: '\\mathsf{id}',
-                vsH: '\\mathcal{H}',
-                vsL: '\\mathcal{L}',
-                vsN: '\\mathcal{N}',
-                vsR: '\\mathcal{R}',
-                vsV: '\\mathcal{V}',
-                vsW: '\\mathcal{W}',
-                vsX: '\\mathcal{X}',
-                vsY: '\\mathcal{Y}',
-                ip: ['\\langle #1,#2 \\rangle', 2],
-                ipdots: '\\ip{\\cdot}{\\cdot}',
-                nrm: ['\\| #1 \\|', 1],
-                nrmdot: '\\nrm{\\cdot}',
-                lra: '\\longrightarrow',
-                LRA: '\\Longrightarrow',
-                LLRA: '\\Longleftrightarrow'
-            }
-        },
-        skipStartupTypeset: true
-    });
-    </script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script>
-        document.addEventListener('slideenter', function(e) {
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub, e.target]);
-            var next = document.getElementsByClassName('next')[0];
-            if (next) {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub, next]);
-            }
-            var past = document.getElementsByClassName('past')[0];
-            if (past) {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub, past]);
-            }
-        });
-    </script-->
-    <!--MathJax end-->
-</head>
-<body style="opacity: 0">
+	<head>
+		<title>Open Access, the DEAL, and many ways to scientific content</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+		<!--This one seems to work all the time, but really small on ipad-->
+		<!--<meta name="viewport" content="initial-scale=0.4">-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" media="all" href="theme/css/default.css">
+		<link rel="stylesheet" media="all" href="theme/css/mpcsc.css">
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+		<base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+		<script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+	</head>
+	<body style="opacity: 0">
 
-<!--slides class="layout-widescreen"-->
-<slides>
+		<!--slides class="layout-widescreen"-->
+		<slides>
 
-    <slide class="logoslide nobackground" style="background-image: url(images/MPCSC_minerva_lrg.png)">
-        <article class="flexbox vcenter">
-            <p><img src="images/manywaystoaccess.png" style="margin-top: 120px;"/></p>
-            <p>Screenshot, Jan 2013</p>
-        </article>
-    </slide>
+		<slide class="logoslide nobackground" style="background-image: url(images/MPCSC_minerva_lrg.png)">
+		<article class="flexbox vcenter">
+			<p><img src="images/manywaystoaccess.png" style="margin-top: 120px;"/></p>
+			<p>Screenshot, Jan 2013</p>
+		</article>
+		</slide>
 
-    <slide class="title-slide segue nobackground">
-        <aside class="gdbar"><img src="logos/mpiwaves.svg"></aside>
-        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
-        <hgroup class="auto-fadein">
-            <h1 data-config-title><!-- populated from slide_config.json --></h1>
-            <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
-            <p>
-                <h2 data-config-presenter><!-- populated from slide_config.json --></h2>
-            </p>
-        </hgroup>
-    </slide>
+		<slide class="title-slide segue nobackground">
+		<aside class="gdbar"><img src="logos/mpiwaves.svg"></aside>
+		<!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+		<hgroup class="auto-fadein">
+		<h1 data-config-title><!-- populated from slide_config.json --></h1>
+		<h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+		<p>
+		<h2 data-config-presenter><!-- populated from slide_config.json --></h2>
+		</p>
+		</hgroup>
+		</slide>
 
-    <slide>
-        <hgroup>
-            <h2>What if you hit a paywall?</h2>
-        </hgroup>
+		<slide class="fill nobackground" style="background-image: url(images/clementinum.jpg)">
+		<h2 class="white">What is Open Access?</h2>
+		<footer class="source">By BrunoDelzant (Flickr) [CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons</footer>
+		</slide>
 
-        <article>
+		<slide class="fill nobackground" style="background-image: url(images/clementinum.jpg)">
+		<h2 class="white">What is Open Access?</h2>
+		<article><p>
+				<h2 class="white">
+				<br> <br> <br> <br> <br>
+				... ... unrestricted access to scientific literature!
+				</h2>
+		</p></article>
+
+		<footer class="source">By BrunoDelzant (Flickr) [CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons</footer>
+		</slide>
+
+		<slide>
+		<hgroup>
+		<h2>The DEAL project</h2>
+		<h3></h3>
+		</hgroup>
+		<article ><p>In a joint effort, basically all German universities take a stand to achieve</p>
+			<ul>
+				<li>a global contract for access to all scientific literature</li>
+				<li>and default open access publishing of all scientific output</li>
+				<li>at a reasonable, sustainable and transparent pricing scheme</li>
+			</ul>
+			<p>from the major publishers Springer, Wiley and Elsevier.</p></article>
+
+		</slide>
+
+		<slide  >
+
+		<hgroup>
+		<h2>What was planned...</h2>
+		<h3></h3>
+		</hgroup>
+		<article><p><img width='1000' alt="planned timeline" src="images/zeitstrahl.png" /></p></article>
+
+		<footer class="source"> 
+				source: www.projekt-deal.de/zeitplan
+		</footer>
+		</slide>
+
+		<slide  >
+
+		<hgroup>
+		<h2>What really happened...</h2>
+		<h3></h3>
+		</hgroup>
+		<article ><ul class="build">
+				<li>2016-12-16: <a href="http://www.ip-watch.org/2016/12/16/no-deal-german-universities-prepare-cut-off-elsevier-journals/">No Deal: German Universities Prepare For Cut-Off From Elsevier Journals</a></li>
+				<li>2017-01-17: <a href="http://science.sciencemag.org/content/355/6320/17">German researchers start 2017 without Elsevier journals</a></li>
+				<li>2017-02-14: <a href="https://www.nature.com/news/german-scientists-regain-access-to-elsevier-journals-1.21482">German scientists regain access to Elsevier journals</a></li>
+				<li>2017-07: <a href="http://archiv.pressestelle.tu-berlin.de/tui/17Juli/#4">DEAL or no DEAL? Berliner Unis k&uuml;ndigen Elsevier Zugang ...</a></li>
+			</ul></article>
+
+		</slide>
+
+		<slide  >
+
+		<hgroup>
+		<h2>What really happened...</h2>
+		<h3></h3>
+		</hgroup>
+		<article ><p>as of today: </p>
+				<ul class="build">
+						<li>negotiations are stalled, but </li>
+						<li>
+						<pre class="prettyprint" data-lang="quote">
+// DEAL is prepared to continue negotiations 
+// at any time on the basis of its clearly defined goals 
+// and <b>“what it wants to buy".</b> </pre>
+						</li>
+						<li> says G&uuml;nther Ziegler on the "Joint Mathematics Meeting", January 2018; see his <a href="https://www.projekt-deal.de/wp-content/uploads/2018/01/2018-01-11_JMM_final_a.pdf">slide show</a> on DEAL, publishers and publishing, and related)
+						</li>
+						<li><a href="https://www.projekt-deal.de/vertragskundigungen-elsevier-2017/">about 200 research institutions have cancelled their Elsevier subscriptions </a></li>
+				<li>renowned researcher have <a href="https://www.electrochem.org/redcat-blog/editors-resign-push-open-access/">resigned from editor positions</a> for Elsevier Journals; see also this <a href="https://www.projekt-deal.de/herausgeber_elsevier/"><em>TU Berlin dominated</em> list</a></li>
+				<li>contracts with Springer and Wiley are frozen in the 2017 state</li>
+			</ul></article>
+		</slide>
+
+		<slide class="fill nobackground" style="background-image: url(images/librarydoor.jpg)">
+		<h2 class="white">Open Access and me...</h2>
+		<footer class="source">attribution: ninocare at pixabay</footer>
+		</slide>
+
+		<slide>
+		<hgroup>
+		<h2>What if you hit a paywall?</h2>
+		</hgroup>
+
+		<article>
 			<ul>
 				<li>Ask a search engine</li>
 				<li>ask a colleague or the public</li>
@@ -106,94 +148,122 @@ URL: https://code.google.com/p/io-2012-slides
 				<li>ask your librarian</li>
 			</ul>
 		</article>
-      <article>
-        <iframe src="http://dx.doi.org/10.1051/m2an/2015029"></iframe>
-      </article>
-    </slide>
+		<article>
+			<iframe src="http://dx.doi.org/10.1051/m2an/2015029"></iframe>
+		</article>
+		</slide>
 
-    <slide>
-        <hgroup>
-            <h2>Ask a search engine...</h2>
-        </hgroup>
-        <article>
-        <p> ... like <a href="https://scholar.google.de/scholar?hl=de&q=Finite+element+decomposition+and+minimal+extension+for+flow+equations&btnG=&lr=">google scholar</a> to find a related preprint/postprint: </p>
+		<slide>
+		<hgroup>
+		<h2>Ask a search engine...</h2>
+		</hgroup>
+		<article>
+			<p> ... like <a href="https://scholar.google.de/scholar?hl=de&q=Finite+element+decomposition+and+minimal+extension+for+flow+equations&btnG=&lr=">google scholar</a> to find a related preprint/postprint: </p>
+			<p>
 			<ul>
 				<li>on an institutional preprint server, like <a href="http://www.mpi-magdeburg.mpg.de/preprints/">our MPI preprint server</a> </li>
 				<li>on <a href="http://arxiv.org/">Arxive</a></li>
 				<li>on the author's homepage</li>
 			</ul>
-<img src="images/googlescholar.png" alt="Google Scholar screenshot" title="Google Scholar screenshot" width=700px>
+			</p>
 		</article>
-	</slide>
+		<p>
+			<img src="images/googlescholar.png" alt="Google Scholar screenshot" title="Google Scholar screenshot" width=700px>
+		</p>
 
-    <slide>
-        <hgroup>
-            <h2>Ask a colleague or the public...</h2>
-        </hgroup>
-        <article>
-        <p> ... like <p>
+		</slide>
+
+		<slide>
+		<hgroup>
+		<h2>Ask a colleague or the public...</h2>
+		</hgroup>
+		<article>
+			<p> ... like <p>
 			<ul>
 				<li>the twitter community with the hashtag <a href="https://twitter.com/search?q=%23icanhazpdf&src=tyah">#icanhazpdf</a> </li>
-				<li>the <a href="https://www.researchgate.net/">researchgate</a> community</a></li>
-			<li>or the <a href="http://sci-hub.io/">sci-hub</a> project</li>
+				<li>or the <a href="http://sci-hub.cn/">sci-hub</a> project</li>
 			</ul>
 		</article>
-      <article>
-        <iframe src="http://sci-hub.io/"></iframe>
-      </article>
-	</slide>
-
-    <slide>
-        <hgroup>
-            <h2>Ask the author ...</h2>
-        </hgroup>
-        <article>
-        <p> ... via a good old email </p>
-<img src="images/emailrequest.png" alt="Email request screenshot" title="Email request screenshot" width=700px>
+		<article>
+			<iframe src="http://sci-hub.cn/"></iframe>
 		</article>
-        <p> </p>
-        <hgroup>
-            <h2 style="margin-top: 40pt">... or your librarian ...</h2>
-        </hgroup>
-	</slide>
+		</slide>
 
-    <slide>
-        <hgroup>
-            <h2>How to help Open Access</h2>
-        </hgroup>
-        <article>
-        	<p> Just do what would help you: </p>
-            <ul>
-                <li>Put a preprint of your publications on</li>
-            	<ul>
-                	<li>on your institutional preprint server</li>
-                	<li>or on archive</li>
-            	</ul>
-                <li>Put a postprint of your publication</li>
-            	<ul>
-                	<li>on your personal homepage</li>
-                	<li>on your library's homepage</li>
-                	<li>... provided your are allowed to do so</li>
-                	<li>... ... (but typically you are)</li>
-            	</ul>
-            </ul>
-        </article>
-    </slide>
+		<slide>
+		<hgroup>
+		<h2>Ask the author ...</h2>
+		</hgroup>
+		<article>
+			<p> ... via a good old email </p>
+			<img src="images/emailrequest.png" alt="Email request screenshot" title="Email request screenshot" width=700px>
+		<hgroup>
+		<h2 style="margin-top: 40pt">... or your librarian ...</h2>
+		</hgroup>
+		</article>
+		</slide>
 
-    <slide class="thank-you-slide segue nobackground">
-        <aside class="gdbar right"><img src="images/mpiwaves.svg"></aside>
-        <article class="flexbox vleft auto-fadein">
-            <h2>Thank you!</h2>
-            <p>Questions?</p>
-        </article>
-        <p class="auto-fadein" data-config-contact>
+		<slide class="fill nobackground" style="background-image: url(images/neonopen.jpg)">
+		<h2 class="white">What can I do about Open Access...</h2>
+		<footer class="source">attribution: By Aaron Pruzaniec (Flickr) [CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons</footer>
+		</slide>
+
+
+		<slide>
+		<hgroup>
+		<h2>How to help Open Access</h2>
+		</hgroup>
+		<article>
+			<p> Just do what would help you: </p>
+			<ul>
+				<li>Put a preprint of your publications</li>
+				<ul>
+					<li>on your institutional preprint server</li>
+					<li>or on Arxiv</li>
+				</ul>
+				<li>Put a postprint of your publication</li>
+				<ul>
+					<li>on your personal homepage</li>
+					<li>on your library's homepage</li>
+					<li>... provided your are allowed to do so</li>
+					<li>... ... (but typically you are)</li>
+				</ul>
+			</ul>
+		</article>
+		</slide>
+
+		<slide>
+		<hgroup>
+		<h2>How to push for Open Access...</h2>
+		</hgroup>
+		<article>
+				<p> ... a bit: </p>
+				<ul>
+						<li>If in doubt, choose the journal with a liberal open access policy as your outlet -- check on <a href="http://www.sherpa.ac.uk/romeo/index.php">Sherpa/RoMEO</a></li>
+				</ul>
+				<ul>
+						<li>If you are asked for a review, ask back for Open Access -- e.g. with this <a href="https://github.com/highlando/reply-reviewrequest-elsev/blob/master/README.md">template</a></li>
+				</ul>
+		</article>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">...and let me tell you that the handling editors typically have a good understanding for that...</p>&mdash; highlando (@jnhlnd) <a href="https://twitter.com/jnhlnd/status/885864959774797826?ref_src=twsrc%5Etfw">July 14, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</article>
+		</slide>
+
+		<slide class="thank-you-slide segue nobackground">
+		<aside class="gdbar right"><img src="images/mpiwaves.svg"></aside>
+		<article class="flexbox vleft auto-fadein">
+			<h2>Thank you!</h2>
+			<p>Questions?</p>
+		</article>
+		<p class="auto-fadein" data-config-contact>
 		<!-- populated from slide_config.json -->
 		</p>
-	</slide>
+		</slide>
 
-	<slide class="backdrop"></slide>
+		<slide class="backdrop"></slide>
 
-</slides>
+		</slides>
 
-</body>
+	</body>
 </html>
